@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 2rem;
+}
+
+header h1 {
+    margin-bottom: 0.44rem;
+    margin-top: 0.6rem;
+}
+
+.centralText {
+    text-align: center;
+}
+
+.ops {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.mulSign {
+    color: #000;
+    font-size: 1rem;
+    display: inline;
+    margin: 0.4rem;
+}
+
+#m1, #m2 {
+    display: inline;
+    width: 5rem;
+    height: 1.4rem;
+}
+
+#result {
+    display: inline;
+    width: 11rem;
+    height: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#check {
+    display: inline;
+    width: 11rem;
+    height: 1.4rem;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+}
