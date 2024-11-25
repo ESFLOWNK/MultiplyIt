@@ -17,8 +17,8 @@ function setNumbers() {
         m2.value = Math.floor(Math.random() * 21);
     }
 
-    document.getElementById("result").value = null;
     document.getElementById("result").focus();
+    document.getElementById("result").value = null;
 }
 
 function check(){
@@ -33,12 +33,13 @@ function check(){
     }
     else{
         alert("Has fallado :(\nLa respuesta era: "+String(m1.value * m2.value));
+        document.getElementById("strike").innerText = "0";
     }
 
     setNumbers();
 }
 
-// Doesnt work
+// Does work!
 function toggleDif(){
     const dif = document.getElementById("difConfig");
     if (dif.innerText == "0" || dif.innerText == undefined) {
