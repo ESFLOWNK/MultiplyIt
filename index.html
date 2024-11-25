@@ -10,8 +10,10 @@
     </head>
 
     <body onload="setNumbers()">
+        <div id="difConfig" style="display: none;">0</div>
         <header>
             <h1>MultiplyIt</h1>
+            <button id="difBut" class="difbut0" onclick="toggleDif()">Modo dificil</button>
         </header>
 
         <div class="ops">
@@ -20,7 +22,7 @@
             <h1 class="mulSign">X</h1>
             <input id="m2" type="number" value="0" disabled>
             <br>
-            <input id="result" type="number" value="0">
+            <input id="result" type="number" value="" onkeypress="keypressed(event);">
             <br>
             <button class="check" onclick="check()">Comprobar</button>
         </div>

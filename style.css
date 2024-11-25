@@ -66,3 +66,23 @@ footer {
     font-size: 0.8rem;
     padding-right: 1rem;
 }
+
+.difbut0 {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.difbut1 {
+    background-color: rgb(55, 223, 55);
+    color: rgb(61, 8, 146);
+}
+
+#difBut {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: 2.2rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 7rem;
+}
