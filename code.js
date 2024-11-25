@@ -28,7 +28,8 @@ function check(){
     const res = document.getElementById("result");
     
     if (res.value == m1.value * m2.value){
-        alert("Felicidades la has atinado!");
+        document.getElementById("strike").innerText = String(Number(document.getElementById("strike").innerText)+1);
+        alert("Felicidades la has atinado!\nRacha de "+String(document.getElementById("strike").innerText)+" aserciones");
     }
     else{
         alert("Has fallado :(\nLa respuesta era: "+String(m1.value * m2.value));
